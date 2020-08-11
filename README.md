@@ -1,4 +1,4 @@
-# Review - Frontend
+# Technical Review
 This repository contemplates the requested requirements of the test.
 Technologies Used
     -React
@@ -29,7 +29,16 @@ npm run dev
 ```
 
 ## How to use
-Line Graph: CSV text is entered and then processed.
+Line Graph: CSV text is entered and then processed. 
+Example:
+```bash
+date, amount, spent
+2019-01-01, 15, 100
+2019-01-02, 22, 200
+2019-01-03, 38, 300
+2019-01-04, 49.4, 400
+```
+
     Then the options for all the columns will be enabled, the combos cannot have the same column equally will filter the second as the available options, Make sure the AXIS X combo has a dimension and the Y combo has a measure. Apply
     The graph will be drawn according to the options chosen
 
