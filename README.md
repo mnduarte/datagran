@@ -1,4 +1,4 @@
-# Review - Frontend
+# Technical Review
 This repository contemplates the requested requirements of the test.
 Technologies Used
     -React
