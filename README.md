@@ -1,5 +1,7 @@
 # Technical Review
 This repository contemplates the requested requirements of the test.
+Responsive design was applied to adapt to any device.
+
 Technologies Used
     -React
     -React Hooks
