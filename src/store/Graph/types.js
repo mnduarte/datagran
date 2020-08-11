@@ -1,0 +1,7 @@
+export const EMPTY_COMBO = 'empty_combo'
+export const RENDER_GRAPH = 'render_graph'
+export const SET_AXIS_SELECTED = 'set_axis_selected'
+export const FILTER_AXIS_Y = 'filter_axis_y'
+export const PARSED_DATA = 'parsed_data'
+export const LOADING = 'loading'
+export const ERROR = 'error'

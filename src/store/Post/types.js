@@ -1,0 +1,6 @@
+export const SET_VALUE = 'set_value'
+export const GET_USER = 'get_user'
+export const GET_POST = 'get_post'
+export const GET_POSTS = 'get_posts'
+export const LOADING = 'loading'
+export const ERROR = 'error'
