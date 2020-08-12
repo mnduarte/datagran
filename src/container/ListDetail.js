@@ -11,23 +11,20 @@ export const ListDetail = () => {
         return <h2>Select Post or User</h2>
     }
 
+    const buildSource = {
+        title: lastSelected == 'Post' ? `Detail Post ${value}` : `Detail User ${value}`,
+        data: lastSelected == 'Post' ? post : user
+    }
+
     return(
         <Fragment>        
             <Loading loading={loading} />
             {
-                lastSelected == 'Post'
-                    ?   post.length > 0 && <Grid 
-                                                title={`Detail Post ${value}`}
-                                                data={post}
-                                                enableHoverCell={false}
-                                                enableHoverRow={true}
-                                            />        
-                    :   user.length > 0 && <Grid 
-                                                title={`Detail User ${value}`}
-                                                data={user}
-                                                enableHoverCell={false}
-                                                enableHoverRow={true}
-                                            />
+                buildSource.data.length > 0 && <Grid
+                                                    enableHoverCell={false}
+                                                    enableHoverRow={true}
+                                                    {...buildSource}
+                                                />
             }
         </Fragment>
     )
